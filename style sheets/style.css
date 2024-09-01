@@ -60,7 +60,7 @@ p{
 }
 .box{
     position: relative;
-    background-image: url("/images/icon-back3.gif");
+    background-image: url("images/icon-back3.gif");
     background-color: white;
     margin: 1.5rem;
     border-radius: .8rem;
