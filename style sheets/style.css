@@ -189,21 +189,21 @@ h3{
         border-radius: .8rem 0 0 .8rem;
     }
     #img1{
-        background-image: url("\\images/OM.jpg");
+        background-image: url("images/OM.jpg");
         background-size: 9rem;
     }
     #img2{
-        background-image: url("\\images/CHIN.jpg");
+        background-image: url("images/CHIN.jpg");
         background-size: 9rem;
         
     }
     #img3{
-        background-image: url("\\images/PRAVEEN.jpg");
+        background-image: url("images/PRAVEEN.jpg");
         background-size: 9rem;
         
     }
     #img4{
-        background-image: url("\\images/JAY.jpg");
+        background-image: url("images/JAY.jpg");
         background-size: 9rem;
 
 }
