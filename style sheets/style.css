@@ -6,7 +6,7 @@ body{
     align-items: center;
     /* max-width: 700px; */
     margin: auto;
-    background-image: url("/images/BACKGROUND.gif");
+    background-image: url("../images/BACKGROUND.gif");
     background-color: rgb(167, 214, 226);
     
     background-size: 100%;
@@ -60,7 +60,7 @@ p{
 }
 .box{
     position: relative;
-    background-image: url("images/icon-back3.gif");
+    background-image: url("../images/icon-back3.gif");
     background-color: white;
     margin: 1.5rem;
     border-radius: .8rem;
@@ -193,17 +193,17 @@ h3{
         background-size: 9rem;
     }
     #img2{
-        background-image: url("/images/CHIN.jpg");
+        background-image: url("../images/CHIN.jpg");
         background-size: 9rem;
         
     }
     #img3{
-        background-image: url("images/PRAVEEN.jpg");
+        background-image: url("../images/PRAVEEN.jpg");
         background-size: 9rem;
         
     }
     #img4{
-        background-image: url("images/JAY.jpg");
+        background-image: url("../images/JAY.jpg");
         background-size: 9rem;
 
 }
