@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vector Calculator</title>
+    <link rel="stylesheet" href="style sheets\stylecommon.css" />
+    <link rel="stylesheet" href="style sheets\style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Vector Calculator</h1>
+    </header>
+    <div class="mains">
+      <div class="intro">
+        <h2>Hey ! here</h2>
+        <p>
+          We are presenting our science project on vector calculation. In this
+          project we are tring to give all the important things and information
+          about vectors. this (vector calculator) helps in doing very
+          complicated vector's solutions in just a minute
+        </p>
+      </div>
+      <div class="main">
+        <div class="topics">
+          <div class="head">
+            <h3>
+              Topics<br />
+              <p id="sub_h3">That's all included in our assignment</p>
+            </h3>
+          </div>
+
+          <div class="box" id="real_1">
+            <div class="logo" id="logo1" onclick="transfer(this)">
+              <img src="style sheets\clculator.svg" alt="" />
+            </div>
+
+            <h4 class="top_h4">vector addition</h4>
+            <p class="top_text">
+              The operation to add two or more vectors together to form a vector
+              sum is known as the addition of vectors.
+              <br />
+              <button id="btn1" class="boton" onclick="reveal(this)">
+                Solve
+              </button>
+            </p>
+          </div>
+          <div class="box" id="real0">
+            <div class="logo" id="logo2" onclick="transfer(this)">
+              <img src="style sheets\clculator.svg" alt="" />
+            </div>
+            <h4 class="top_h4">vector subtraction</h4>
+            <p class="top_text">
+              The operation to substract two or more vectors together to form a
+              vector difference is known as the subtraction of vectors.
+              <br />
+              <button id="btn2" class="boton" onclick="reveal(this)">
+                Solve
+              </button>
+            </p>
+          </div>
+          <div class="box" id="real1">
+            <div class="logo" id="logo3" onclick="transfer(this)">
+              <img src="style sheets\clculator.svg" alt="" />
+            </div>
+            <h4 class="top_h4">scalar product</h4>
+            <p class="top_text">
+              Scalar products can be found by taking the component of one vector
+              in the direction of the other vector and multiplying it with the
+              magnitude of the other vector. The scalar product is also known as
+              the dot product
+              <br />
+              <button id="btn3" class="boton" onclick="reveal(this)">
+                Solve
+              </button>
+            </p>
+          </div>
+          <div class="box" id="real2">
+            <div class="logo" id="logo4" onclick="transfer(this)">
+              <img src="style sheets\clculator.svg" alt="" />
+            </div>
+            <h4 class="top_h4">vector product</h4>
+            <p class="top_text">
+              A vector product or cross product is a binary operation on two
+              vectors in three-dimensional space. It is determined by the right
+              hand screw rule
+              <br />
+              <button id="btn4" class="boton" onclick="reveal(this)">
+                Solve
+              </button>
+            </p>
+          </div>
+          <div class="box" id="real3">
+            <div class="logo" id="logo5" onclick="transfer(this)">
+              <img src="style sheets\clculator.svg" alt="" />
+            </div>
+            <h4 class="top_h4">Modulus</h4>
+            <p class="top_text">
+              The modulus of a vector means the length of the vector. It is
+              always positive and has no direction.
+              <br />
+              <button id="btn5" class="boton" onclick="reveal(this)">
+                Solve
+              </button>
+            </p>
+          </div>
+          <div class="box" id="real4">
+            <div class="logo" id="logo6" onclick="transfer(this)">
+              <img src="style sheets\clculator.svg" alt="" />
+            </div>
+            <h4 class="top_h4">unit vector</h4>
+            <p class="top_text">
+              A vector is a quantity that has both magnitude, as well as
+              direction. A vector that has a magnitude of 1 is a unit vector.
+              ->It is also known as Direction Vector.
+              <br />
+              <button id="btn6" class="boton" onclick="reveal(this)">
+                Solve
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="subj" id="subj">
+        <div class="head"><h3>Govt. Model School Mhow</h3></div>
+        <div class="imgs">
+          <div class="value">
+            <h4 class="name">submitted to : Aaradhana Rajnekar</h4>
+            <p class="skill">Physics teacher</p>
+          </div>
+        </div>
+
+      </div> -->
+      <div class="info" id="info">
+        <div class="topper">
+          <div class="head"><h3>Ĉreators</h3></div>
+          <div class="imgs">
+            <div class="img" id="img1"></div>
+            <div class="value">
+              <h4 class="name">Om prakash pawar</h4>
+              <p class="skill">senior developer</p>
+            </div>
+          </div>
+
+          <div class="imgs">
+            <div class="img" id="img2"></div>
+            <div class="value">
+              <h4 class="name">Chinmay Gupta</h4>
+              <p class="skill">assistant developer</p>
+            </div>
+          </div>
+
+          <div class="imgs">
+            <div class="img" id="img3"></div>
+            <div class="value">
+              <h4 class="name">praveen kumar patel</h4>
+              <p class="skill">web desginer</p>
+            </div>
+          </div>
+          <div class="imgs">
+            <div class="img" id="img4"></div>
+            <div class="value">
+              <h4 class="name">jay kande</h4>
+              <p class="skill">content writter</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer"></div>
+    </footer>
+    <script src="scriptcommon.js"></script>
+  </body>
+</html>

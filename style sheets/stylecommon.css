@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    
+margin: 0;
+-webkit-user-select: none;
+padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family:"Comfortaa" , cursive;
+}
+
+body{
+    min-height: 1000px;
+    box-sizing:border-box ;
+    align-items: center;
+    margin: auto;
+}
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.327);
+    text-align: center;
+    font-size: 1.2rem;
+    backdrop-filter: blur(7px);
+    color: white;
+    position: fixed;
+    z-index: 99;
+}
+h1{
+    padding: .5rem ;
+    font-weight: 700;
+
+}
+h1,h2{
+    text-transform: capitalize;
+    
+}
+h2{
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 2rem 0rem 3rem 0rem;
+}
+.topics{
+    text-align: center;
+    backdrop-filter: blur(7px);
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+}
+h3{
+    font-size: large;
+    padding: 5rem 0 3rem 0;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing:.5rem;
+    color: rgb(58, 92, 120);
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    transform: translateY(20rem);
+    height: 10rem;
+}
+.ans .soln{
+    text-align: left;
+}
+.try{
+    width: 20.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
